@@ -4,12 +4,14 @@ It includes examples of Oracle IDCS to AzureAD and IDCS to Oracle Fusion ERP int
 It is interlinked, any federated SSO request or user creation will create an audit record, and the audit REST API
 is built on SCIM, same standard the REST APIs used fro Azure and Fusion provisioning uses.
 
+- How to enable MFA for IDCS (IOS_MFA_IDCS Setup_V1.pdf)
 - SSO between Oracle IDCS and Oracle Fusion  (fusion13sso_v3.pdf)
 - SSO between Azure AD and IDCS (azureAD_federation_v4.pdf)
 - Multi AzureAD SSO, with the Azure AD invite guest feature [(Video on google drive)](https://drive.google.com/file/d/1c62ac56O5VFJJ93emfhhIqL0GFEzdvSJ/view?usp=sharing)
 - Provisioning from AzureAD to Oracle IDCS (azureAD_provisioning_v2.pdf)
 - Example of custom claims in AzureAD that mask off the Azure domain name, if the username in IDCS is without domain name (custom_claims_v1.pdf)
 - How to configure MFA within IDCS (MFA_Setup.pdf)
+- How to configure IdP initiated SSo from AzureAZ to Fusion Apps (Switch to IdP Initiated SSO_IDCS_AZAD_V1.pdf)
 - Shellscript that pull the audit trail, based on a standard SCIM filter
 
 - Shell scrip that fetches the JWT BEarer token, for use with the REST API
